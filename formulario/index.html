@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente |LD</title>
+    <link rel="stylesheet" href="visual.css">
+</head>  
+<body>
+    <div class="box">
+        <form action="">
+            <fieldset>
+                <legend><b>Cadastro de Clientes</b></legend>
+                <br>
+                <div class="inputBox">
+                    <input type="text" name="nome" id="nome" class="inputUser" required>
+                    <label for="nome" class="labelInput">Razão social</label>
+                </div>
+                
+                  <br><br>
+                  <div class="inputBox">
+                    <input type="text" name="cpf_cnpj" id="cpf_cnpj" class="inputUser" required>
+                    <label for="cpf_cnpj" class="labelInput">CPF/CNPJ</label>
+                </div>
+                
+
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="email" id="email" class="inputUser" required>
+                    <label for="email" class="labelInput">Email</label>
+                </div>
+                <br><br>
+                <div class="inputBox">
+                    <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                    <label for="telefone" class="labelInput">Telefone</label>
+                </div>
+                <p>Loja:</p>
+                <input type="radio" id="Matriz" name="lojas" value="Matriz" required>
+                <label for="Matriz">Matriz</label>
+                <br>
+                <input type="radio" id="filial" name="lojas" value="filial" required>
+                <label for="filial">filial</label>
+                <br>
+                <input type="radio" id="todas" name="lojas" value="todas" required>
+                <label for="todas">todas</label>
+                <br><br>
+                <label for="data_cadastro"><b>Data de Cadastro:</b></label>
+                <input type="date" name="data_cadastro" id="data_cadastro" required>
+                <br><br><br>
+                <div class="inputBox">
+                    <input type="text" name="cliente_id" id="cliente_id" class="inputUser" required>
+                    <label for="cliente_id" class="labelInput">Cliente Responsável</label>
+                </div>
+
+
+                
+            
+                <br><br>
+                <div class="inputBox">
+                    <input type="text" name="tecnico_id" id="tecnico_id" class="inputUser" required>
+                    <label for="tecnico_id" class="labelInput">Técnico Responsável</label>
+                </div>
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
+<!-- ───▄██▄─────────────▄▄ 
+     ──█████▄▄▄▄───────▄▀ 
+     ────▀██▀▀████▄───▄▀ 
+     ───▄█▀▄██▄████▄─▄█ 
+      ▄▄█▀▄▄█─▀████▀██▀--RX>
